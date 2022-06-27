@@ -1,8 +1,6 @@
-from tokenize import PlainToken
 import numpy as np
 import cv2
 from cv2 import aruco
-import matplotlib.pyplot as plt
 
 arucoDic = aruco.getPredefinedDictionary(dict = aruco.DICT_6X6_250)
 image = aruco.drawMarker(arucoDic, 0, 600, 1)
